@@ -1,6 +1,6 @@
-import { Button, Card, Grid, Image } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import { useStore } from "../../../app/stores/store";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import LoadingComponents from "../../../app/layout/LoadingComponents";
 import { observer } from "mobx-react-lite";
